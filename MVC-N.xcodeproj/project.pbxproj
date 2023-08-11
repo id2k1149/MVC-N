@@ -56,15 +56,10 @@
 		50063BA32A86A37500371ACE /* MVC-N */ = {
 			isa = PBXGroup;
 			children = (
-				50063BBC2A86A4DF00371ACE /* Comments */,
 				50063BBB2A86A47800371ACE /* Application */,
-				50063BA42A86A37500371ACE /* AppDelegate.swift */,
+				50063BBC2A86A4DF00371ACE /* Comments */,
+				50063BC02A86A5DD00371ACE /* Supporting files */,
 				50063BA62A86A37500371ACE /* SceneDelegate.swift */,
-				50063BA82A86A37500371ACE /* ViewController.swift */,
-				50063BAA2A86A37500371ACE /* Main.storyboard */,
-				50063BAD2A86A37900371ACE /* Assets.xcassets */,
-				50063BAF2A86A37900371ACE /* LaunchScreen.storyboard */,
-				50063BB22A86A37900371ACE /* Info.plist */,
 			);
 			path = "MVC-N";
 			sourceTree = "<group>";
@@ -79,6 +74,8 @@
 		50063BB92A86A3FB00371ACE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50063BAA2A86A37500371ACE /* Main.storyboard */,
+				50063BAF2A86A37900371ACE /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -86,6 +83,7 @@
 		50063BBA2A86A40C00371ACE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				50063BA42A86A37500371ACE /* AppDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,6 +111,7 @@
 		50063BBD2A86A50000371ACE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				50063BA82A86A37500371ACE /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +128,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		50063BC02A86A5DD00371ACE /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				50063BAD2A86A37900371ACE /* Assets.xcassets */,
+				50063BB22A86A37900371ACE /* Info.plist */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PT982DDMHZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-N/Info.plist";
+				INFOPLIST_FILE = "MVC-N/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -381,7 +389,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PT982DDMHZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-N/Info.plist";
+				INFOPLIST_FILE = "MVC-N/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -56,6 +56,7 @@
 		50063BA32A86A37500371ACE /* MVC-N */ = {
 			isa = PBXGroup;
 			children = (
+				50063BBC2A86A4DF00371ACE /* Comments */,
 				50063BBB2A86A47800371ACE /* Application */,
 				50063BA42A86A37500371ACE /* AppDelegate.swift */,
 				50063BA62A86A37500371ACE /* SceneDelegate.swift */,
@@ -97,6 +98,37 @@
 				50063BBA2A86A40C00371ACE /* Controller */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		50063BBC2A86A4DF00371ACE /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				50063BBF2A86A52100371ACE /* Model */,
+				50063BBE2A86A50F00371ACE /* View */,
+				50063BBD2A86A50000371ACE /* Controller */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		50063BBD2A86A50000371ACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50063BBE2A86A50F00371ACE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50063BBF2A86A52100371ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

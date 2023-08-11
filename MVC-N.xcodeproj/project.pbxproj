@@ -56,6 +56,9 @@
 		50063BA32A86A37500371ACE /* MVC-N */ = {
 			isa = PBXGroup;
 			children = (
+				50063BB82A86A3F200371ACE /* Model */,
+				50063BB92A86A3FB00371ACE /* View */,
+				50063BBA2A86A40C00371ACE /* Controller */,
 				50063BA42A86A37500371ACE /* AppDelegate.swift */,
 				50063BA62A86A37500371ACE /* SceneDelegate.swift */,
 				50063BA82A86A37500371ACE /* ViewController.swift */,
@@ -65,6 +68,27 @@
 				50063BB22A86A37900371ACE /* Info.plist */,
 			);
 			path = "MVC-N";
+			sourceTree = "<group>";
+		};
+		50063BB82A86A3F200371ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50063BB92A86A3FB00371ACE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50063BBA2A86A40C00371ACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
